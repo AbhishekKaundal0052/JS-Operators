@@ -49,26 +49,26 @@ console.log(multiplication)
 var result = c/=3;
 console.log(result)
 // Challenge 13: Perform 2 Strict equality Comparison operations, in which one should return true and one should return false.
-operations1 = 5==5 
-operations2 = 6==3
-console.log(operations1, operations2)
+operations1 = 5 
+operations2 = 3
+console.log(operations1 == "5", operations2 == "2")
 // Challenge 14: Perform 2 Strict-non-equality Comparison operations, in which one should return true and one should return false.
-operations1 = 5 !== 4 
-operations2 = 7!== 7
-console.log(operations1, operations2)
+operations1 = 4 
+operations2 = 7
+console.log(operations1 !== "5", operations2 !== 7)
 // Challenge 15: Perform 2 Less than Comparison operations, in which one should return true and one should return false.
-operations1 =  55 < 67
-operations2 = 78 < 69
-console.log(operations1, operations2)
+operations1 = 67
+operations2 = 69
+console.log(operations1 < 88, operations2 < 22)
 // Challenge 16: Perform 2 Greater than Comparison operations, in which one should return true and one should return false.
-operations1 = 98 > 45
-operations2 = 31 > 72
-console.log(operations1, operations2)
+operations1 = 98 
+operations2 = 31 
+console.log(operations1> 44, operations2>33)
 // Challenge 17: Perform 2 Less than or equal to Comparison operations, in which one should return true and one should return false.
-operations1 = 45<= 45
-operations2 = 35 <= 19
-console.log(operations1, operations2)
+operations1 = 45
+operations2 = 35 
+console.log(operations1<=78, operations2<=11)
 // Challenge 18: Perform 2 Greater than or equal to Comparison operations, in which one should return true and one should return false.
-operations1 = 5>=5 
-operations2 = 5>=9
-console.log(operations1, operations2)
+operations1 = 5 
+operations2 = 5
+console.log(operations1>=1, operations2>=89)
