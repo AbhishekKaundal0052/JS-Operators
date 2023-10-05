@@ -46,12 +46,12 @@ console.log(subtraction)
 var multiplication = c*= 2
 console.log(multiplication)
 // Challenge 12: Perform 	Division assignment operation to the variable c;
-var result = c/=3;
+var result = (c/=3);
 console.log(result)
 // Challenge 13: Perform 2 Strict equality Comparison operations, in which one should return true and one should return false.
 operations1 = 5 
 operations2 = 3
-console.log(operations1 == "5", operations2 == "2")
+console.log(operations1 === 5, operations2 === 2)
 // Challenge 14: Perform 2 Strict-non-equality Comparison operations, in which one should return true and one should return false.
 operations1 = 4 
 operations2 = 7
