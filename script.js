@@ -55,7 +55,7 @@ console.log(operations1 === 5, operations2 === 2)
 // Challenge 14: Perform 2 Strict-non-equality Comparison operations, in which one should return true and one should return false.
 operations1 = 4 
 operations2 = 7
-console.log(operations1 !== "5", operations2 !== 7)
+console.log(operations1 !== 5, operations2 !== 7)
 // Challenge 15: Perform 2 Less than Comparison operations, in which one should return true and one should return false.
 operations1 = 67
 operations2 = 69
